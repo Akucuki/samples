@@ -33,6 +33,10 @@ class SampleContainerViewModel @Inject constructor(
         it.navigate(Destination.Map.route)
     }
 
+    fun goNativeMap() = navigationDispatcher.emit {
+        it.navigate(Destination.NativeMap.route)
+    }
+
     fun goForceTheme() = navigationDispatcher.emit {
         it.navigate(Destination.ForceTheme.route)
     }

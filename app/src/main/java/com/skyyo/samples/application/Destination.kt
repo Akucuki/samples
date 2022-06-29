@@ -11,6 +11,7 @@ sealed class Destination(val route: String) {
     object ModalBottomSheet : Destination("modalBottomSheetContainer")
     object BottomSheetScaffold : Destination("bottomSheetScaffold")
     object Map : Destination("map")
+    object NativeMap : Destination("nativeMap")
     object CameraX : Destination("cameraX")
     object ForceTheme : Destination("forceTheme")
     object ViewPager : Destination("viewPager")

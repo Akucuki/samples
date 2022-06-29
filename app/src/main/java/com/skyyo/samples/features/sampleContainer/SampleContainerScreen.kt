@@ -154,6 +154,10 @@ fun Maps(viewModel: SampleContainerViewModel) {
         modifier = Modifier.fillMaxWidth(),
         onClick = viewModel::goMap
     ) { Text(text = "google map") }
+    Button(
+        modifier = Modifier.fillMaxWidth(),
+        onClick = viewModel::goNativeMap
+    ) { Text(text = "native google map") }
     Spacer(modifier = Modifier.height(16.dp))
 }
 

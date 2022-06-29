@@ -33,6 +33,7 @@ import com.skyyo.samples.features.gradientScroll.GradientScrollScreen
 import com.skyyo.samples.features.inputValidations.auto.InputValidationAutoScreen
 import com.skyyo.samples.features.inputValidations.autoDebounce.InputValidationAutoDebounceScreen
 import com.skyyo.samples.features.inputValidations.manual.InputValidationManualScreen
+import com.skyyo.samples.features.nativeGoogleMap.NativeGoogleMapScreen
 import com.skyyo.samples.features.navigateWithResult.simple.dogContacts.DogContactsScreen
 import com.skyyo.samples.features.navigateWithResult.simple.dogDetails.DogDetailsScreen
 import com.skyyo.samples.features.navigateWithResult.simple.dogFeed.DogFeedScreen
@@ -81,6 +82,7 @@ fun PopulatedNavHost(
     composable(Destination.CatsPaging.route) { CatsPagingScreen() }
     composable(Destination.CatsPagingRoom.route) { CatsPagingRoomScreen() }
     composable(Destination.Map.route) { GoogleMapScreen() }
+    composable(Destination.NativeMap.route) { NativeGoogleMapScreen() }
     composable(Destination.ForceTheme.route) { ForceThemeScreen() }
     composable(Destination.CameraX.route) { CameraXScreen() }
     bottomSheet(Destination.BottomSheet.route) { BottomSheetScreen() }
